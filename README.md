@@ -55,7 +55,7 @@ tf.saved_model.save(
 ```
 
 #### Notebook Link
-![Model Training](.\images\training_google_collab.png)
+![Model Training](images/training_google_collab.png)
 ---
 
 ### Step 2: Install Kafka
@@ -101,7 +101,7 @@ cd kafka_2.13-3.5.0
 1. Clone the consumer application repository.
 2. Ensure the AI model is placed in the correct path for the application.
 but make sure to replace the path to your model in the `FraudDetectionService` class.
-   ![Consumer Application](.\images\path_to_model.png)
+   ![Consumer Application](images/path_to_model.png)
 
 3. Run the application using Maven:
    ```bash
@@ -123,13 +123,13 @@ Expected output:
 - Transaction sent to Kafka.
 - Kafka consumer classifies transaction as fraud or safe.
 
-![Testing System](.\images\training_results.png)
+![Testing System](images/training_results.png)
 
 ---
 
 ## Project Architecture
 
-![Architecture Diagram](.\images\project_archi.png)
+![Architecture Diagram](images/project_archi.png)
 
 ---
 
