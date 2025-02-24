@@ -2,6 +2,9 @@
 
 This project demonstrates a Kafka-based architecture for fraud detection using an AI model. The system includes a client application to produce transaction data, a Kafka broker to manage the data stream, and a Spring-based consumer that integrates an AI model to classify transactions as fraud or safe.
 
+this article has all the details you need  
+[check it out](https://medium.com/@kabourayassin/real-time-fraud-detection-in-banking-using-ai-and-event-streaming-5396e2ae4854)
+
 ---
 
 ## Table of Contents
